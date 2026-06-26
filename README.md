@@ -4,7 +4,7 @@
   <p>
     <strong>Powered By: O Maior de Minas</strong> <a href="https://www.cruzeiro.com.br/">www.cruzeiro.com.br</a> <img src="images/Maior%20de%20Minas.jpg" height="24" align="absmiddle" /> 🦊💙
   </p>
-  <img src="images/Maior%20de%20Minas%20Trofeus.png" height="1.1" />
+  <img src="images/Maior%20de%20Minas%20Trofeus.png" height="1.2" />
 </div>
 
 ---
@@ -13,7 +13,7 @@
 
 With it, you can assign powerful scripts and commands to clicks and mouse scroll movements, all in a single button at the corner of your screen!
 
-## ✨ New in this Version (v1.1)
+## ✨ New in this Version (v1.2)
 
 This version has been redesigned with productivity in mind, introducing new configuration screens and dozens of new triggers:
 
@@ -38,10 +38,10 @@ This version has been redesigned with productivity in mind, introducing new conf
 The easiest way to install is by using the packaged `.plasmoid` file available in the **Releases** tab.
 
 1. Go to the project's [Releases](../../releases) page.
-2. Download the latest `Power-Show-Desktop-1.1.plasmoid` file.
+2. Download the latest `Power-Show-Desktop-1.2.plasmoid` file.
 3. To install, you can double-click the downloaded file and use the KDE installer, or use the terminal:
    ```bash
-   kpackagetool6 -i Power-Show-Desktop-1.1.plasmoid
+   kpackagetool6 -i Power-Show-Desktop-1.2.plasmoid
    ```
 4. Restart your plasma panel (`systemctl restart --user plasma-plasmashell`) and add the "Power Show Desktop | Plasma" widget to your panel.
 

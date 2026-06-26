@@ -29,13 +29,13 @@ LibConfig.FormKCM {
 		label.Layout.topMargin: 0
 	}
 
-	LibConfig.CheckBox {
+	QQC2.CheckBox {
 		Kirigami.FormData.label: i18n("Display:")
 		text: i18n("Use Emoji/Icon instead of colors")
-		configKey: 'useIcon'
-		onClicked: {
-			plasmoid.configuration.useIcon = !plasmoid.configuration.useIcon;
-			plasmoid.configuration.size = plasmoid.configuration.useIcon ? 30 : 8;
+		checked: plasmoid.configuration.useIcon
+		onToggled: {
+			plasmoid.configuration.useIcon = checked;
+			plasmoid.configuration.size = checked ? 30 : 8;
 		}
 	}
 
