@@ -19,7 +19,7 @@
 		"License": "GPL-3.0",
 		"Name": "Power Show Desktop | Plasma",
 		"Name[pt_BR]": "Power Show Desktop | Plasma",
-		"Version": "1.3",
+		"Version": "1.4",
 		"Website": "https://github.com/leoneivaw/power-show-desktop"
 	},
 	"X-Plasma-API-Minimum-Version": "6.0",

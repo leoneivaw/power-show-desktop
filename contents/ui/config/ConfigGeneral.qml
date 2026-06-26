@@ -30,7 +30,7 @@ LibConfig.FormKCM {
 	}
 
 	QQC2.CheckBox {
-		Kirigami.FormData.label: i18n("Display:")
+		Kirigami.FormData.label: i18n("Visual:")
 		text: i18n("Use Icon instead of colors")
 		checked: plasmoid.configuration.useIcon
 		onToggled: {
@@ -53,22 +53,22 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Edge Color:")
+		Kirigami.FormData.label: i18n("Cor da Borda:")
 		configKey: 'edgeColor'
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Hovered Color:")
+		Kirigami.FormData.label: i18n("Cor ao Focar:")
 		configKey: 'hoveredColor'
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Pressed Color:")
+		Kirigami.FormData.label: i18n("Cor ao Clicar:")
 		configKey: 'pressedColor'
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Long Press Color:")
+		Kirigami.FormData.label: i18n("Cor ao Segurar:")
 		configKey: 'longpressColor'
 	}
 
@@ -79,12 +79,12 @@ LibConfig.FormKCM {
 
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Click Command:")
+		Kirigami.FormData.label: i18n("Clique Normal:")
 		id: click_command
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Long Press Command:")
+		Kirigami.FormData.label: i18n("Segurar Clique:")
 		id: longclick_command
 	}
 
@@ -94,7 +94,7 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.SpinBox {
-		Kirigami.FormData.label: i18n("Scroll Cooldown:")
+		Kirigami.FormData.label: i18n("Cooldown:")
 		configKey: 'mousewheel_cooldown'
 		suffix: i18n("ms")
 		minimumValue: 0
@@ -102,12 +102,12 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Scroll Up:")
+		Kirigami.FormData.label: i18n("Rolar Cima:")
 		id: mousewheel_up
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Scroll Down:")
+		Kirigami.FormData.label: i18n("Rolar Baixo:")
 		id: mousewheel_down
 	}
 
@@ -117,12 +117,12 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.CheckBox {
-		Kirigami.FormData.label: i18n("Show desktop on hover:")
+		Kirigami.FormData.label: i18n("Ativar ao focar:")
 		text: i18n("Enable")
 		configKey: 'peekingEnabled'
 	}
 	LibConfig.SpinBox {
-		Kirigami.FormData.label: i18n("Peek threshold:")
+		Kirigami.FormData.label: i18n("Atraso:")
 		configKey: 'peekingThreshold'
 		suffix: i18n("ms")
 		stepSize: 50

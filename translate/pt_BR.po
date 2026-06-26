@@ -111,12 +111,12 @@ msgid "Run Command"
 msgstr "Executar comando"
 
 #: contents/ui/config/ConfigGeneral.qml:96
-msgid "Click Command:"
-msgstr "Comando de clique:"
+msgid "Clique Normal:"
+msgstr "Clique Normal:"
 
 #: contents/ui/config/ConfigGeneral.qml:101
-msgid "Long Press Command:"
-msgstr "Comando de clique longo:"
+msgid "Segurar Clique:"
+msgstr "Segurar Clique:"
 
 #: contents/ui/config/ConfigGeneral.qml:107
 msgid "Mouse Wheel"
