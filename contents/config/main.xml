@@ -16,10 +16,10 @@
 			<default>qdbus6 org.kde.kglobalaccel /component/kmix invokeShortcut "mute"</default>
 		</entry>
 		<entry name="ctrl_click_command" type="string">
-			<default></default>
+			<default>qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut "Overview"</default>
 		</entry>
 		<entry name="middle_click_command" type="string">
-			<default></default>
+			<default>qdbus6 org.kde.kglobalaccel /component/kmix invokeShortcut "mute"</default>
 		</entry>
 		<entry name="shift_click_command" type="string">
 			<default></default>
@@ -28,13 +28,13 @@
 			<default></default>
 		</entry>
 		<entry name="ctrl_mousewheel_up" type="string">
-			<default></default>
+			<default>qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut "Switch One Desktop to the Right"</default>
 		</entry>
 		<entry name="ctrl_mousewheel_down" type="string">
 			<default></default>
 		</entry>
 		<entry name="ctrl_mousewheel_cooldown" type="int">
-			<default>1000</default>
+			<default>500</default>
 		</entry>
 		<entry name="mousewheel_cooldown" type="int">
 			<default>0</default>
@@ -43,10 +43,10 @@
 			<default>run_commands</default>
 		</entry>
 		<entry name="mousewheel_up" type="string">
-			<default>amixer -q sset Master 10%+</default>
+			<default>qdbus6 org.kde.kglobalaccel /component/kmix invokeShortcut "increase_volume"</default>
 		</entry>
 		<entry name="mousewheel_down" type="string">
-			<default>amixer -q sset Master 10%-</default>
+			<default>qdbus6 org.kde.kglobalaccel /component/kmix invokeShortcut "decrease_volume"</default>
 		</entry>
 		<entry name="size" type="int">
 			<default>8</default>
