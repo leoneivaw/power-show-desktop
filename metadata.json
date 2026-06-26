@@ -1,0 +1,29 @@
+{
+	"KPackageStructure": "Plasma/Applet",
+	"KPlugin": {
+		"Authors": [
+			{
+				"Email": "leoneivaw@gmail.com",
+				"Name": "Leonardo Pimenta"
+			}
+		],
+		"BugReportUrl": "https://github.com/leoneivaw/Show-Desktop-Plasma/issues",
+		"Category": "Windows and Tasks",
+		"Description": "Mostar a área de trabalho do plasma e central de atalhos",
+		"Description[pt_BR]": "Mostar a área de trabalho do plasma e central de atalhos",
+		"FormFactors": [
+			"desktop"
+		],
+		"Icon": "user-desktop",
+		"Id": "org.kde.plasma.win7showdesktop",
+		"License": "GPL-3.0",
+		"Name": "Show Desktop |Plasma",
+		"Name[pt_BR]": "Show Desktop |Plasma",
+		"Version": "1.0",
+		"Website": "https://github.com/leoneivaw/Show-Desktop-Plasma"
+	},
+	"X-Plasma-API-Minimum-Version": "6.0",
+	"X-Plasma-Provides": [
+		"org.kde.plasma.windowmanagement"
+	]
+}
