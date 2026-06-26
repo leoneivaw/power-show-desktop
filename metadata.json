@@ -1,29 +1,29 @@
 {
-	"KPackageStructure": "Plasma/Applet",
-	"KPlugin": {
-		"Authors": [
-			{
-				"Email": "leoneivaw@gmail.com",
-				"Name": "Leonardo Pimenta"
-			}
-		],
-		"BugReportUrl": "https://github.com/leoneivaw/power-show-desktop/issues",
-		"Category": "Windows and Tasks",
-		"Description": "Show desktop and shortcut central.",
-		"Description[pt_BR]": "Mostre a área de trabalho do plasma e central de atalhos.",
-		"FormFactors": [
-			"desktop"
-		],
-		"Icon": "org.kde.plasma.powershowdesktop",
-		"Id": "org.kde.plasma.powershowdesktop",
-		"License": "GPL-3.0",
-		"Name": "Power Show Desktop",
-		"Name[pt_BR]": "Power Show Desktop",
-		"Version": "1.5.1",
-		"Website": "https://github.com/leoneivaw/power-show-desktop"
-	},
-	"X-Plasma-API-Minimum-Version": "6.0",
-	"X-Plasma-Provides": [
-		"org.kde.plasma.windowmanagement"
-	]
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "leoneivaw@gmail.com",
+                "Name": "Leonardo Pimenta"
+            }
+        ],
+        "BugReportUrl": "https://github.com/leoneivaw/power-show-desktop/issues",
+        "Category": "Windows and Tasks",
+        "Description": "Power Show Desktop is an enhanced widget (plasmoid) for KDE Plasma. In addition to offering the classic behavior of 'peeking' or minimizing windows to see your desktop (Windows 7 style), this version has been heavily modified to serve as an invisible shortcut central. With it, you can assign powerful scripts and commands to clicks and mouse scroll movements, all in a single button at the corner of your screen!",
+        "Description[pt_BR]": "Power Show Desktop é um widget aprimorado para KDE Plasma. Além de oferecer o comportamento clássico de 'espiar' ou minimizar janelas para ver sua área de trabalho (estilo Windows 7), esta versão foi fortemente modificada para servir como uma central de atalhos invisível. Com ele, você pode atribuir scripts e comandos poderosos a cliques e movimentos de rolagem do mouse, tudo em um único botão no canto da tela!",
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "org.kde.plasma.powershowdesktop",
+        "Id": "org.kde.plasma.powershowdesktop",
+        "License": "GPL-3.0",
+        "Name": "Power Show Desktop",
+        "Name[pt_BR]": "Power Show Desktop",
+        "Version": "1.5.1",
+        "Website": "https://github.com/leoneivaw/power-show-desktop"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.windowmanagement"
+    ]
 }
