@@ -4,7 +4,7 @@
   <p>
     <strong>Powered By: O Maior de Minas</strong> <a href="https://www.cruzeiro.com.br/">www.cruzeiro.com.br</a> <img src="images/Maior%20de%20Minas.jpg" height="24" align="absmiddle" /> 🦊💙
   </p>
-  <img src="images/Maior%20de%20Minas%20Trofeus.png" height="1.5.3" />
+  <img src="images/Maior%20de%20Minas%20Trofeus.png" height=50 />
 </div>
 
 ---
