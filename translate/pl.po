@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -19,31 +18,31 @@ msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:24
 msgid "Advanced Click Actions"
-msgstr ""
+msgstr "Zaawansowane Akcje Kliknięcia"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
 msgid "Ctrl+Click:"
-msgstr ""
+msgstr "Ctrl+Klik:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click:"
-msgstr ""
+msgstr "Środkowe Kliknięcie:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click:"
-msgstr ""
+msgstr "Shift+Klik:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
 msgid "Alt+Click:"
-msgstr ""
+msgstr "Alt+Klik:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
-msgstr ""
+msgstr "Zaawansowane Akcje Kółka Myszy"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
 msgid "Ctrl+Scroll Cooldown:"
-msgstr ""
+msgstr "Czas odnowienia Ctrl+Scroll:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:99
@@ -54,15 +53,15 @@ msgstr ""
 #: contents/ui/config/ConfigAdvanced.qml:63
 #: contents/ui/config/ConfigGeneral.qml:104
 msgid "Recommended cooldown: 0"
-msgstr ""
+msgstr "Zalecany czas odnowienia: 0"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
 msgid "Ctrl+Scroll Up:"
-msgstr ""
+msgstr "Ctrl+Przewiń w Górę:"
 
 #: contents/ui/config/ConfigAdvanced.qml:74
 msgid "Ctrl+Scroll Down:"
-msgstr ""
+msgstr "Ctrl+Przewiń w Dół:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
@@ -70,15 +69,15 @@ msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:33
 msgid "Visual:"
-msgstr ""
+msgstr "Wizualny:"
 
 #: contents/ui/config/ConfigGeneral.qml:34
 msgid "Use Icon instead of colors"
-msgstr ""
+msgstr "Użyj Ikony zamiast kolorów"
 
 #: contents/ui/config/ConfigGeneral.qml:43
 msgid "Icon:"
-msgstr ""
+msgstr "Ikona:"
 
 #: contents/ui/config/ConfigGeneral.qml:50
 msgid "Size:"
@@ -90,47 +89,47 @@ msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:56
 msgid "Edge Color:"
-msgstr ""
+msgstr "Kolor Krawędzi:"
 
 #: contents/ui/config/ConfigGeneral.qml:61
 msgid "Hover Color:"
-msgstr ""
+msgstr "Kolor Najazdu:"
 
 #: contents/ui/config/ConfigGeneral.qml:66
 msgid "Pressed Color:"
-msgstr ""
+msgstr "Kolor Naciśnięcia:"
 
 #: contents/ui/config/ConfigGeneral.qml:71
 msgid "Long Press Color:"
-msgstr ""
+msgstr "Kolor Długiego Naciśnięcia:"
 
 #: contents/ui/config/ConfigGeneral.qml:77
 msgid "Click"
-msgstr ""
+msgstr "Klik"
 
 #: contents/ui/config/ConfigGeneral.qml:82
 msgid "Normal Click:"
-msgstr ""
+msgstr "Normalne Kliknięcie:"
 
 #: contents/ui/config/ConfigGeneral.qml:87
 msgid "Long Press:"
-msgstr ""
+msgstr "Długie Naciśnięcie:"
 
 #: contents/ui/config/ConfigGeneral.qml:93
 msgid "Mouse Wheel"
-msgstr ""
+msgstr "Kółko Myszy"
 
 #: contents/ui/config/ConfigGeneral.qml:97
 msgid "Cooldown:"
-msgstr ""
+msgstr "Czas odnowienia:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
 msgid "Scroll Up:"
-msgstr ""
+msgstr "Przewiń w Górę:"
 
 #: contents/ui/config/ConfigGeneral.qml:115
 msgid "Scroll Down:"
-msgstr ""
+msgstr "Przewiń w Dół:"
 
 #: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"

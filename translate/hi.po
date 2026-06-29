@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -19,31 +18,31 @@ msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:24
 msgid "Advanced Click Actions"
-msgstr ""
+msgstr "उन्नत क्लिक क्रियाएँ"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
 msgid "Ctrl+Click:"
-msgstr ""
+msgstr "Ctrl+क्लिक:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click:"
-msgstr ""
+msgstr "मध्य क्लिक:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click:"
-msgstr ""
+msgstr "Shift+क्लिक:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
 msgid "Alt+Click:"
-msgstr ""
+msgstr "Alt+क्लिक:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
-msgstr ""
+msgstr "उन्नत माउस व्हील क्रियाएँ"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
 msgid "Ctrl+Scroll Cooldown:"
-msgstr ""
+msgstr "Ctrl+स्क्रॉल कूलडाउन:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:99
@@ -54,15 +53,15 @@ msgstr ""
 #: contents/ui/config/ConfigAdvanced.qml:63
 #: contents/ui/config/ConfigGeneral.qml:104
 msgid "Recommended cooldown: 0"
-msgstr ""
+msgstr "अनुशंसित कूलडाउन: 0"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
 msgid "Ctrl+Scroll Up:"
-msgstr ""
+msgstr "Ctrl+ऊपर स्क्रॉल करें:"
 
 #: contents/ui/config/ConfigAdvanced.qml:74
 msgid "Ctrl+Scroll Down:"
-msgstr ""
+msgstr "Ctrl+नीचे स्क्रॉल करें:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
@@ -70,15 +69,15 @@ msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:33
 msgid "Visual:"
-msgstr ""
+msgstr "दृश्य:"
 
 #: contents/ui/config/ConfigGeneral.qml:34
 msgid "Use Icon instead of colors"
-msgstr ""
+msgstr "रंगों के बजाय आइकन का उपयोग करें"
 
 #: contents/ui/config/ConfigGeneral.qml:43
 msgid "Icon:"
-msgstr ""
+msgstr "आइकन:"
 
 #: contents/ui/config/ConfigGeneral.qml:50
 msgid "Size:"
@@ -90,47 +89,47 @@ msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:56
 msgid "Edge Color:"
-msgstr ""
+msgstr "किनारे का रंग:"
 
 #: contents/ui/config/ConfigGeneral.qml:61
 msgid "Hover Color:"
-msgstr ""
+msgstr "होवर रंग:"
 
 #: contents/ui/config/ConfigGeneral.qml:66
 msgid "Pressed Color:"
-msgstr ""
+msgstr "क्लिक रंग:"
 
 #: contents/ui/config/ConfigGeneral.qml:71
 msgid "Long Press Color:"
-msgstr ""
+msgstr "लॉन्ग प्रेस रंग:"
 
 #: contents/ui/config/ConfigGeneral.qml:77
 msgid "Click"
-msgstr ""
+msgstr "क्लिक"
 
 #: contents/ui/config/ConfigGeneral.qml:82
 msgid "Normal Click:"
-msgstr ""
+msgstr "सामान्य क्लिक:"
 
 #: contents/ui/config/ConfigGeneral.qml:87
 msgid "Long Press:"
-msgstr ""
+msgstr "लॉन्ग प्रेस:"
 
 #: contents/ui/config/ConfigGeneral.qml:93
 msgid "Mouse Wheel"
-msgstr ""
+msgstr "माउस व्हील"
 
 #: contents/ui/config/ConfigGeneral.qml:97
 msgid "Cooldown:"
-msgstr ""
+msgstr "कूलडाउन:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
 msgid "Scroll Up:"
-msgstr ""
+msgstr "ऊपर स्क्रॉल करें:"
 
 #: contents/ui/config/ConfigGeneral.qml:115
 msgid "Scroll Down:"
-msgstr ""
+msgstr "नीचे स्क्रॉल करें:"
 
 #: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"

@@ -19,34 +19,31 @@ msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:24
 msgid "Advanced Click Actions"
-msgstr ""
+msgstr "Geavanceerde Klikacties"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
-#, fuzzy
 msgid "Ctrl+Click:"
-msgstr "Klikken"
+msgstr "Ctrl+Klik:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click:"
-msgstr ""
+msgstr "Middelste Klik:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click:"
-msgstr ""
+msgstr "Shift+Klik:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
-#, fuzzy
 msgid "Alt+Click:"
-msgstr "Klikken"
+msgstr "Alt+Klik:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
-msgstr ""
+msgstr "Geavanceerde Muiswielacties"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
-#, fuzzy
 msgid "Ctrl+Scroll Cooldown:"
-msgstr "Omlaagscrollen:"
+msgstr "Ctrl+Scroll Cooldown:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:99
@@ -57,17 +54,15 @@ msgstr "ms"
 #: contents/ui/config/ConfigAdvanced.qml:63
 #: contents/ui/config/ConfigGeneral.qml:104
 msgid "Recommended cooldown: 0"
-msgstr ""
+msgstr "Aanbevolen cooldown: 0"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
-#, fuzzy
 msgid "Ctrl+Scroll Up:"
-msgstr "Omhoogscrollen:"
+msgstr "Ctrl+Omhoog Scrollen:"
 
 #: contents/ui/config/ConfigAdvanced.qml:74
-#, fuzzy
 msgid "Ctrl+Scroll Down:"
-msgstr "Omlaagscrollen:"
+msgstr "Ctrl+Omlaag Scrollen:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
@@ -75,15 +70,15 @@ msgstr "Uiterlijk"
 
 #: contents/ui/config/ConfigGeneral.qml:33
 msgid "Visual:"
-msgstr ""
+msgstr "Visueel:"
 
 #: contents/ui/config/ConfigGeneral.qml:34
 msgid "Use Icon instead of colors"
-msgstr ""
+msgstr "Gebruik Icoon in plaats van kleuren"
 
 #: contents/ui/config/ConfigGeneral.qml:43
 msgid "Icon:"
-msgstr ""
+msgstr "Icoon:"
 
 #: contents/ui/config/ConfigGeneral.qml:50
 msgid "Size:"
@@ -98,49 +93,44 @@ msgid "Edge Color:"
 msgstr "Randkleur:"
 
 #: contents/ui/config/ConfigGeneral.qml:61
-#, fuzzy
 msgid "Hover Color:"
-msgstr "Kleur bij tonen zonder klikken:"
+msgstr "Zweefkleur:"
 
 #: contents/ui/config/ConfigGeneral.qml:66
 msgid "Pressed Color:"
-msgstr "Kleur bij indrukken:"
+msgstr "Klikkleur:"
 
 #: contents/ui/config/ConfigGeneral.qml:71
-#, fuzzy
 msgid "Long Press Color:"
-msgstr "Kleur bij indrukken:"
+msgstr "Lange Klikkleur:"
 
 #: contents/ui/config/ConfigGeneral.qml:77
 msgid "Click"
-msgstr "Klikken"
+msgstr "Klik"
 
 #: contents/ui/config/ConfigGeneral.qml:82
-#, fuzzy
 msgid "Normal Click:"
-msgstr "Klikken"
+msgstr "Normale Klik:"
 
 #: contents/ui/config/ConfigGeneral.qml:87
-#, fuzzy
 msgid "Long Press:"
-msgstr "Kleur bij indrukken:"
+msgstr "Lange Klik:"
 
 #: contents/ui/config/ConfigGeneral.qml:93
 msgid "Mouse Wheel"
-msgstr "Scrollwiel"
+msgstr "Muiswiel"
 
 #: contents/ui/config/ConfigGeneral.qml:97
-#, fuzzy
 msgid "Cooldown:"
-msgstr "Omlaagscrollen:"
+msgstr "Cooldown:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
 msgid "Scroll Up:"
-msgstr "Omhoogscrollen:"
+msgstr "Omhoog Scrollen:"
 
 #: contents/ui/config/ConfigGeneral.qml:115
 msgid "Scroll Down:"
-msgstr "Omlaagscrollen:"
+msgstr "Omlaag Scrollen:"
 
 #: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"
@@ -175,7 +165,6 @@ msgid "Select Script"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:75
-#, fuzzy
 msgid "Command"
 msgstr "Opdracht uitvoeren"
 
@@ -200,12 +189,10 @@ msgid "Present Windows (Window Class)"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:82
-#, fuzzy
 msgid "Show Desktop Grid"
 msgstr "Bureaublad tonen (Win7)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:83
-#, fuzzy
 msgid "Show Desktop"
 msgstr "Bureaublad tonen (Win7)"
 
@@ -214,12 +201,10 @@ msgid "--- Alternância de Áreas de Trabalho ---"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:86
-#, fuzzy
 msgid "Switch Desktop Right"
 msgstr "Overschakelen naar ander bureaublad (qdbus)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:87
-#, fuzzy
 msgid "Switch Desktop Left"
 msgstr "Overschakelen naar ander bureaublad (qdbus)"
 
@@ -320,12 +305,10 @@ msgid "--- Áudio (amixer / Sem UI) ---"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:114
-#, fuzzy
 msgid "Volume Up (amixer)"
 msgstr "Volume (zonder venster - amixer)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:115
-#, fuzzy
 msgid "Volume Down (amixer)"
 msgstr "Volume (zonder venster - amixer)"
 
@@ -342,7 +325,6 @@ msgid "Volume Up"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:120
-#, fuzzy
 msgid "Volume Down"
 msgstr "Omlaagscrollen:"
 
@@ -419,11 +401,9 @@ msgstr ""
 #~ msgid "Run Command"
 #~ msgstr "Opdracht uitvoeren"
 
-#, fuzzy
 #~ msgid "Click Command:"
 #~ msgstr "Opdracht uitvoeren"
 
-#, fuzzy
 #~ msgid "Long Press Command:"
 #~ msgstr "Opdracht uitvoeren"
 

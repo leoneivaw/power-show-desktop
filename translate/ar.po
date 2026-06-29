@@ -16,31 +16,31 @@ msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:24
 msgid "Advanced Click Actions"
-msgstr ""
+msgstr "إجراءات النقر المتقدمة"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
 msgid "Ctrl+Click:"
-msgstr ""
+msgstr "Ctrl+نقر:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click:"
-msgstr ""
+msgstr "نقر أوسط:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click:"
-msgstr ""
+msgstr "Shift+نقر:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
 msgid "Alt+Click:"
-msgstr ""
+msgstr "Alt+نقر:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
-msgstr ""
+msgstr "إجراءات عجلة الماوس المتقدمة"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
 msgid "Ctrl+Scroll Cooldown:"
-msgstr ""
+msgstr "وقت انتظار Ctrl+Scroll:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:99
@@ -51,15 +51,15 @@ msgstr ""
 #: contents/ui/config/ConfigAdvanced.qml:63
 #: contents/ui/config/ConfigGeneral.qml:104
 msgid "Recommended cooldown: 0"
-msgstr ""
+msgstr "وقت الانتظار الموصى به: 0"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
 msgid "Ctrl+Scroll Up:"
-msgstr ""
+msgstr "Ctrl+تمرير لأعلى:"
 
 #: contents/ui/config/ConfigAdvanced.qml:74
 msgid "Ctrl+Scroll Down:"
-msgstr ""
+msgstr "Ctrl+تمرير لأسفل:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
@@ -67,15 +67,15 @@ msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:33
 msgid "Visual:"
-msgstr ""
+msgstr "مرئي:"
 
 #: contents/ui/config/ConfigGeneral.qml:34
 msgid "Use Icon instead of colors"
-msgstr ""
+msgstr "استخدم رمزًا بدلاً من الألوان"
 
 #: contents/ui/config/ConfigGeneral.qml:43
 msgid "Icon:"
-msgstr ""
+msgstr "رمز:"
 
 #: contents/ui/config/ConfigGeneral.qml:50
 msgid "Size:"
@@ -87,47 +87,47 @@ msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:56
 msgid "Edge Color:"
-msgstr ""
+msgstr "لون الحافة:"
 
 #: contents/ui/config/ConfigGeneral.qml:61
 msgid "Hover Color:"
-msgstr ""
+msgstr "لون التمرير:"
 
 #: contents/ui/config/ConfigGeneral.qml:66
 msgid "Pressed Color:"
-msgstr ""
+msgstr "لون الضغط:"
 
 #: contents/ui/config/ConfigGeneral.qml:71
 msgid "Long Press Color:"
-msgstr ""
+msgstr "لون الضغط المطول:"
 
 #: contents/ui/config/ConfigGeneral.qml:77
 msgid "Click"
-msgstr ""
+msgstr "نقر"
 
 #: contents/ui/config/ConfigGeneral.qml:82
 msgid "Normal Click:"
-msgstr ""
+msgstr "نقرة عادية:"
 
 #: contents/ui/config/ConfigGeneral.qml:87
 msgid "Long Press:"
-msgstr ""
+msgstr "ضغط مطول:"
 
 #: contents/ui/config/ConfigGeneral.qml:93
 msgid "Mouse Wheel"
-msgstr ""
+msgstr "عجلة الماوس"
 
 #: contents/ui/config/ConfigGeneral.qml:97
 msgid "Cooldown:"
-msgstr ""
+msgstr "وقت الانتظار:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
 msgid "Scroll Up:"
-msgstr ""
+msgstr "تمرير لأعلى:"
 
 #: contents/ui/config/ConfigGeneral.qml:115
 msgid "Scroll Down:"
-msgstr ""
+msgstr "تمرير لأسفل:"
 
 #: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"
@@ -186,12 +186,10 @@ msgid "Present Windows (Window Class)"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:82
-#, fuzzy
 msgid "Show Desktop Grid"
 msgstr "أظهر سطح المكتب (Win7)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:83
-#, fuzzy
 msgid "Show Desktop"
 msgstr "أظهر سطح المكتب (Win7)"
 
@@ -200,7 +198,6 @@ msgid "--- Alternância de Áreas de Trabalho ---"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:86
-#, fuzzy
 msgid "Switch Desktop Right"
 msgstr "أظهر سطح المكتب (Win7)"
 

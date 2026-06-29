@@ -2,7 +2,6 @@
 # Copyright (C) 2024
 # This file is distributed under the same license as the Power Show Desktop package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Power Show Desktop \n"
@@ -18,34 +17,31 @@ msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:24
 msgid "Advanced Click Actions"
-msgstr ""
+msgstr "Acciones de Clic Avanzadas"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
-#, fuzzy
 msgid "Ctrl+Click:"
-msgstr "Click"
+msgstr "Ctrl+Clic:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click:"
-msgstr ""
+msgstr "Clic Central:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click:"
-msgstr ""
+msgstr "Shift+Clic:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
-#, fuzzy
 msgid "Alt+Click:"
-msgstr "Click"
+msgstr "Alt+Clic:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
-msgstr ""
+msgstr "Acciones Avanzadas de Rueda de Ratón"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
-#, fuzzy
 msgid "Ctrl+Scroll Cooldown:"
-msgstr "Desplazarse hacia abajo:"
+msgstr "Tiempo de Recarga Ctrl+Scroll:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:99
@@ -56,17 +52,15 @@ msgstr "ms"
 #: contents/ui/config/ConfigAdvanced.qml:63
 #: contents/ui/config/ConfigGeneral.qml:104
 msgid "Recommended cooldown: 0"
-msgstr ""
+msgstr "Tiempo de recarga recomendado: 0"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
-#, fuzzy
 msgid "Ctrl+Scroll Up:"
-msgstr "Desplazarse hacia arriba:"
+msgstr "Ctrl+Desplazar Arriba:"
 
 #: contents/ui/config/ConfigAdvanced.qml:74
-#, fuzzy
 msgid "Ctrl+Scroll Down:"
-msgstr "Desplazarse hacia abajo:"
+msgstr "Ctrl+Desplazar Abajo:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
@@ -74,15 +68,15 @@ msgstr "Apariencia"
 
 #: contents/ui/config/ConfigGeneral.qml:33
 msgid "Visual:"
-msgstr ""
+msgstr "Visual:"
 
 #: contents/ui/config/ConfigGeneral.qml:34
 msgid "Use Icon instead of colors"
-msgstr ""
+msgstr "Usar Icono en lugar de colores"
 
 #: contents/ui/config/ConfigGeneral.qml:43
 msgid "Icon:"
-msgstr ""
+msgstr "Icono:"
 
 #: contents/ui/config/ConfigGeneral.qml:50
 msgid "Size:"
@@ -94,52 +88,47 @@ msgstr "px"
 
 #: contents/ui/config/ConfigGeneral.qml:56
 msgid "Edge Color:"
-msgstr "Color del borde:"
+msgstr "Color del Borde:"
 
 #: contents/ui/config/ConfigGeneral.qml:61
-#, fuzzy
 msgid "Hover Color:"
-msgstr "Color del hover:"
+msgstr "Color al Pasar el Ratón:"
 
 #: contents/ui/config/ConfigGeneral.qml:66
 msgid "Pressed Color:"
-msgstr "Color al pulsar:"
+msgstr "Color al Pulsar:"
 
 #: contents/ui/config/ConfigGeneral.qml:71
-#, fuzzy
 msgid "Long Press Color:"
-msgstr "Color al pulsar:"
+msgstr "Color de Pulsación Larga:"
 
 #: contents/ui/config/ConfigGeneral.qml:77
 msgid "Click"
-msgstr "Click"
+msgstr "Clic"
 
 #: contents/ui/config/ConfigGeneral.qml:82
-#, fuzzy
 msgid "Normal Click:"
-msgstr "Click"
+msgstr "Clic Normal:"
 
 #: contents/ui/config/ConfigGeneral.qml:87
-#, fuzzy
 msgid "Long Press:"
-msgstr "Color al pulsar:"
+msgstr "Pulsación Larga:"
 
 #: contents/ui/config/ConfigGeneral.qml:93
 msgid "Mouse Wheel"
-msgstr "Rueda del ratón"
+msgstr "Rueda del Ratón"
 
 #: contents/ui/config/ConfigGeneral.qml:97
-#, fuzzy
 msgid "Cooldown:"
-msgstr "Desplazarse hacia abajo:"
+msgstr "Tiempo de Recarga:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
 msgid "Scroll Up:"
-msgstr "Desplazarse hacia arriba:"
+msgstr "Desplazar Arriba:"
 
 #: contents/ui/config/ConfigGeneral.qml:115
 msgid "Scroll Down:"
-msgstr "Desplazarse hacia abajo:"
+msgstr "Desplazar Abajo:"
 
 #: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"
@@ -174,7 +163,6 @@ msgid "Select Script"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:75
-#, fuzzy
 msgid "Command"
 msgstr "Ejecutar comando:"
 
@@ -199,12 +187,10 @@ msgid "Present Windows (Window Class)"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:82
-#, fuzzy
 msgid "Show Desktop Grid"
 msgstr "Mostrar el escritorio (Win7)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:83
-#, fuzzy
 msgid "Show Desktop"
 msgstr "Mostrar el escritorio (Win7)"
 
@@ -213,12 +199,10 @@ msgid "--- Alternância de Áreas de Trabalho ---"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:86
-#, fuzzy
 msgid "Switch Desktop Right"
 msgstr "Cambiar escritorio (qdbus)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:87
-#, fuzzy
 msgid "Switch Desktop Left"
 msgstr "Cambiar escritorio (qdbus)"
 
@@ -319,12 +303,10 @@ msgid "--- Áudio (amixer / Sem UI) ---"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:114
-#, fuzzy
 msgid "Volume Up (amixer)"
 msgstr "Volumen (Sin UI) (amixer)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:115
-#, fuzzy
 msgid "Volume Down (amixer)"
 msgstr "Volumen (Sin UI) (amixer)"
 
@@ -341,7 +323,6 @@ msgid "Volume Up"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:120
-#, fuzzy
 msgid "Volume Down"
 msgstr "Desplazarse hacia abajo:"
 
@@ -418,11 +399,9 @@ msgstr ""
 #~ msgid "Run Command"
 #~ msgstr "Ejecutar comando:"
 
-#, fuzzy
 #~ msgid "Click Command:"
 #~ msgstr "Ejecutar comando:"
 
-#, fuzzy
 #~ msgid "Long Press Command:"
 #~ msgstr "Ejecutar comando:"
 
