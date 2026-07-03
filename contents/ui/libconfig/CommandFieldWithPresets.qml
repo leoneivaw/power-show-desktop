@@ -121,7 +121,7 @@ RowLayout {
             { text: i18n("Mic Mute"), value: "qdbus6 org.kde.kglobalaccel /component/kmix invokeShortcut \"mic_mute\"", isHeader: false },
 
             { text: i18n("--- Controle de Mídia ---"), value: "HEADER", isHeader: true },
-            { text: i18n("Play/Pause"), value: "qdbus6 org.kde.kglobalaccel /component/mediacontrol invokeShortcut \"playpause\"", isHeader: false },
+            { text: i18n("Play/Pause"), value: "qdbus6 org.kde.kglobalaccel /component/mediacontrol invokeShortcut \"playpausemedia\"", isHeader: false },
             { text: i18n("Next Track"), value: "qdbus6 org.kde.kglobalaccel /component/mediacontrol invokeShortcut \"nextmedia\"", isHeader: false },
             { text: i18n("Prev Track"), value: "qdbus6 org.kde.kglobalaccel /component/mediacontrol invokeShortcut \"previousmedia\"", isHeader: false }
         ]
