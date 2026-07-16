@@ -57,7 +57,7 @@ After adding the widget to your taskbar:
 
 3. In the **Advanced Actions** tab, you have access to advanced fields for modifiers (`Ctrl`, `Shift`, `Alt`, `Middle Click`) and exclusive **Mouse Scroll** commands.
 
-![Advanced Configuration](images/Config%20advanced.png)
+![Advanced Configuration](images/Config_advanced.png)
 
 ### Useful Example for Scrolling (Switching Desktops)
 Try selecting these commands from the smart Presets dropdown in the **Advanced Actions** tab to switch desktops using `Ctrl + Scroll`:
