@@ -395,6 +395,98 @@ msgctxt "@info:tooltip"
 msgid "Run user-defined command when pressed"
 msgstr "Executa comando definido pelo usuário"
 
+#: contents/config/config.qml:12
+msgid "Media Control"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:20
+msgid "Media Integration"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:25
+#, fuzzy
+msgid "Enable:"
+msgstr "Ativar"
+
+#: contents/ui/config/ConfigMedia.qml:26
+msgid "Enable Media Control (Lazy Load)"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:31
+msgid "Appearance"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:36
+#, fuzzy
+msgid "Visual Mode:"
+msgstr "Visual:"
+
+#: contents/ui/config/ConfigMedia.qml:42
+msgid "Expanded Width:"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:50
+#, fuzzy
+msgid "Media Actions"
+msgstr "Ações Avançadas de Clique"
+
+#: contents/ui/config/ConfigMedia.qml:55
+#, fuzzy
+msgid "Click Action:"
+msgstr "Ações Avançadas de Clique"
+
+#: contents/ui/config/ConfigMedia.qml:70
+#, fuzzy
+msgid "Scroll Cooldown:"
+msgstr "Cooldown de Ctrl+Scroll:"
+
+#: contents/ui/config/ConfigMedia.qml:39
+msgid "Expanded (Cover + Title)"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:40
+msgid "Compact (Cover Only)"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:77
+msgid "--- Ações Internas do Widget ---"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:78
+msgid "Open Player Popup"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:79
+#, fuzzy
+msgid "Play/Pause (Popup)"
+msgstr "Tocar/Pausar"
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:80
+#, fuzzy
+msgid "Next Track (Popup)"
+msgstr "Próxima Faixa"
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:81
+#, fuzzy
+msgid "Prev Track (Popup)"
+msgstr "Faixa Anterior"
+
+#: contents/ui/config/ConfigMedia.qml:47
+msgid "Position:"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:49
+msgid "Left / Top"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:50
+msgid "Right / Bottom"
+msgstr ""
+
+#, fuzzy
+#~ msgid "--- Controle de Mídia DBus ---"
+#~ msgstr "--- Controle de Mídia ---"
+
 #~ msgid "Clique Normal:"
 #~ msgstr "Clique Normal:"
 

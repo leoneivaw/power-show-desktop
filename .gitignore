@@ -1,2 +1,5 @@
 *.py
 !build_locales.py
+install.sh
+.antigravityrules
+*~
