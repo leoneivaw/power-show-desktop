@@ -30,6 +30,10 @@ This version has been redesigned with productivity in mind, introducing new conf
     *   Configure `Ctrl + Scroll Up` and `Ctrl + Scroll Down` (perfect for quickly switching virtual desktops).
     *   **Configurable Cooldown:** Control scroll sensitivity! Adjust the timeout (in milliseconds) to prevent the mouse from triggering the same action dozens of times in a single movement.
 *   **Modern Layout:** The internal settings panel of the widget has been updated to use KDE's native Kirigami design, now featuring smart command presets and a file picker for bash scripts.
+*   **🎵 Native MPRIS Media Control:** 
+    *   A completely new, integrated media block to control any active player (Spotify, browsers, VLC) seamlessly.
+    *   **Dynamic Media Popup:** A clean popup dialog featuring album art, smart media controls, and dynamically expanding tabs that adapt based on the number of currently active players.
+    *   **Media Actions & Scroll:** Granular customization over your media commands, including native DBus shortcuts and isolated volume control exclusively for the focused media.
 
 ---
 
