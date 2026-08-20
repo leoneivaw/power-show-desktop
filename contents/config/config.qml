@@ -12,4 +12,9 @@ ConfigModel {
 		icon: "configure"
 		source: "config/ConfigAdvanced.qml"
 	}
+	ConfigCategory {
+		name: i18n("Media Control")
+		icon: "media-playback-start"
+		source: "config/ConfigMedia.qml"
+	}
 }

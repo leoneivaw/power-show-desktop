@@ -396,3 +396,87 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid "Run user-defined command when pressed"
 msgstr ""
+
+#: contents/config/config.qml:12
+msgid "Media Control"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:20
+msgid "Media Integration"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:25
+msgid "Enable:"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:26
+msgid "Enable Media Control (Lazy Load)"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:31
+msgid "Appearance"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:36
+#, fuzzy
+msgid "Visual Mode:"
+msgstr "Wizualny:"
+
+#: contents/ui/config/ConfigMedia.qml:42
+msgid "Expanded Width:"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:50
+#, fuzzy
+msgid "Media Actions"
+msgstr "Zaawansowane Akcje Kliknięcia"
+
+#: contents/ui/config/ConfigMedia.qml:55
+#, fuzzy
+msgid "Click Action:"
+msgstr "Zaawansowane Akcje Kliknięcia"
+
+#: contents/ui/config/ConfigMedia.qml:70
+#, fuzzy
+msgid "Scroll Cooldown:"
+msgstr "Czas odnowienia Ctrl+Scroll:"
+
+#: contents/ui/config/ConfigMedia.qml:39
+msgid "Expanded (Cover + Title)"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:40
+msgid "Compact (Cover Only)"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:77
+msgid "--- Ações Internas do Widget ---"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:78
+msgid "Open Player Popup"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:79
+msgid "Play/Pause (Popup)"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:80
+msgid "Next Track (Popup)"
+msgstr ""
+
+#: contents/ui/libconfig/MediaCommandFieldWithPresets.qml:81
+msgid "Prev Track (Popup)"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:47
+msgid "Position:"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:49
+msgid "Left / Top"
+msgstr ""
+
+#: contents/ui/config/ConfigMedia.qml:50
+msgid "Right / Bottom"
+msgstr ""

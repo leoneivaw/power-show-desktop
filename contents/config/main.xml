@@ -76,4 +76,42 @@
 			<default>🧬</default>
 		</entry>
 	</group>
+	<group name="MediaControl">
+		<entry name="enableMediaControl" type="Bool">
+			<default>false</default>
+		</entry>
+		<entry name="media_position" type="string">
+			<default>left</default>
+		</entry>
+		<entry name="mediaVisualMode" type="string">
+			<default>expanded</default>
+		</entry>
+		<entry name="mediaControlWidth" type="int">
+			<default>150</default>
+		</entry>
+		<entry name="media_click_command" type="string">
+			<default>playPause</default>
+		</entry>
+		<entry name="media_middle_click_command" type="string">
+			<default>open_player_popup</default>
+		</entry>
+		<entry name="media_ctrl_click_command" type="string">
+			<default>next</default>
+		</entry>
+		<entry name="media_shift_click_command" type="string">
+			<default>previous</default>
+		</entry>
+		<entry name="media_alt_click_command" type="string">
+			<default>qdbus6 org.kde.kglobalaccel /component/mediacontrol invokeShortcut "seekforwardmedia"</default>
+		</entry>
+		<entry name="media_scroll_up_command" type="string">
+			<default>qdbus6 org.kde.kglobalaccel /component/mediacontrol invokeShortcut "mediavolumeup"</default>
+		</entry>
+		<entry name="media_scroll_down_command" type="string">
+			<default>qdbus6 org.kde.kglobalaccel /component/mediacontrol invokeShortcut "mediavolumedown"</default>
+		</entry>
+		<entry name="media_mousewheel_cooldown" type="int">
+			<default>200</default>
+		</entry>
+	</group>
 </kcfg>

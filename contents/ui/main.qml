@@ -39,14 +39,34 @@ PlasmoidItem {
 
 	Plasmoid.backgroundHints: PlasmaCore.Types.NoBackground
 
-	Layout.minimumWidth: Kirigami.Units.iconSizes.medium
-	Layout.minimumHeight: Kirigami.Units.iconSizes.medium
+	property int mediaExtraSize: {
+		if (mediaLoader.active && mediaLoader.item && mediaLoader.item.hasActiveMedia) {
+			if (Plasmoid.configuration.mediaVisualMode === "expanded" || Plasmoid.configuration.mediaVisualMode === "textOnly") {
+				return root.vertical ? Plasmoid.configuration.mediaControlWidth : Math.min(mediaLoader.item.implicitWidth, Plasmoid.configuration.mediaControlWidth);
+			} else if (Plasmoid.configuration.mediaVisualMode === "minimal") {
+				return vertical ? Math.max(16, root.width * 0.7) : (Math.max(16, root.height * 0.7) + (Kirigami.Units.smallSpacing * 2));
+			} else {
+				return vertical ? Math.max(22, root.width) : Math.max(22, root.height);
+			}
+		}
+		return 0;
+	}
 
-	Layout.maximumWidth: vertical ? Layout.minimumWidth : Math.max(1, Plasmoid.configuration.size)
-	Layout.maximumHeight: vertical ? Math.max(1, Plasmoid.configuration.size) : Layout.minimumHeight
+	Layout.minimumWidth: vertical ? Kirigami.Units.iconSizes.medium : (Math.max(1, Plasmoid.configuration.size) + mediaExtraSize)
+	Layout.minimumHeight: vertical ? (Math.max(1, Plasmoid.configuration.size) + mediaExtraSize) : Kirigami.Units.iconSizes.medium
 
-	Layout.preferredWidth: Layout.maximumWidth
-	Layout.preferredHeight: Layout.maximumHeight
+	Layout.maximumWidth: vertical ? -1 : (Math.max(1, Plasmoid.configuration.size) + mediaExtraSize)
+	Layout.maximumHeight: vertical ? (Math.max(1, Plasmoid.configuration.size) + mediaExtraSize) : -1
+
+	Layout.preferredWidth: vertical ? -1 : (Math.max(1, Plasmoid.configuration.size) + mediaExtraSize)
+	Layout.preferredHeight: vertical ? (Math.max(1, Plasmoid.configuration.size) + mediaExtraSize) : (parent ? parent.height : -1)
+
+	Behavior on Layout.minimumWidth { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad } }
+	Behavior on Layout.minimumHeight { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad } }
+	Behavior on Layout.maximumWidth { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad } }
+	Behavior on Layout.maximumHeight { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad } }
+	Behavior on Layout.preferredWidth { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad } }
+	Behavior on Layout.preferredHeight { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad } }
 
 	Plasmoid.constraintHints: Plasmoid.CanFillArea
 
@@ -75,9 +95,24 @@ PlasmoidItem {
 
 	property bool isPeeking: false
 
-	MouseArea {
-		id: mouseArea
+	GridLayout {
+		id: mainLayout
 		anchors.fill: parent
+		columns: root.vertical ? 1 : 2
+		rows: root.vertical ? 2 : 1
+		rowSpacing: 0
+		columnSpacing: 0
+
+		MouseArea {
+			id: mouseArea
+			Layout.column: root.vertical ? 0 : ((Plasmoid.configuration.media_position === "left" || Plasmoid.configuration.media_position === "") ? 1 : 0)
+			Layout.row: root.vertical ? ((Plasmoid.configuration.media_position === "left" || Plasmoid.configuration.media_position === "") ? 1 : 0) : 0
+			Layout.fillWidth: true
+			Layout.fillHeight: true
+			Layout.minimumWidth: root.vertical ? 1 : Math.max(1, Plasmoid.configuration.size)
+			Layout.minimumHeight: root.vertical ? Math.max(1, Plasmoid.configuration.size) : 1
+			Layout.preferredWidth: root.vertical ? -1 : Math.max(1, Plasmoid.configuration.size)
+			Layout.preferredHeight: root.vertical ? Math.max(1, Plasmoid.configuration.size) : -1
 
 		acceptedButtons: Qt.LeftButton | Qt.MiddleButton
 		activeFocusOnTab: true
@@ -379,6 +414,28 @@ PlasmoidItem {
 			subText: toolTipSubText
 			textFormat: Text.PlainText
 		}
+	}
+
+	Loader {
+		id: mediaLoader
+		active: Plasmoid.configuration.enableMediaControl
+		source: "MediaBlock.qml"
+		Layout.column: root.vertical ? 0 : ((Plasmoid.configuration.media_position === "left" || Plasmoid.configuration.media_position === "") ? 0 : 1)
+		Layout.row: root.vertical ? ((Plasmoid.configuration.media_position === "left" || Plasmoid.configuration.media_position === "") ? 0 : 1) : 0
+		Layout.preferredWidth: root.vertical ? -1 : root.mediaExtraSize
+		Layout.preferredHeight: root.vertical ? root.mediaExtraSize : -1
+		Layout.fillWidth: root.vertical ? true : false
+		Layout.fillHeight: root.vertical ? false : true
+		visible: active && item && item.hasActiveMedia
+
+		Connections {
+			target: mediaLoader.item
+			ignoreUnknownSignals: true
+			function onExecuteCommand(cmd) {
+				root.exec(cmd);
+			}
+		}
+	}
 	}
 
 	// https://invent.kde.org/plasma/plasma5support/-/tree/master/src/declarativeimports/datasource.h
