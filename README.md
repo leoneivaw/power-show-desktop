@@ -11,6 +11,11 @@
 
 **Power Show Desktop | Plasma** is an enhanced widget (plasmoid) for KDE Plasma. In addition to offering the classic behavior of "peeking" or minimizing windows to see your desktop (Windows 7 style), this version has been heavily modified to serve as an **invisible shortcut central**.
 
+<img width="119" height="76" alt="image" src="https://github.com/user-attachments/assets/6ab95ea6-ece5-48b2-b666-82c85efc282b" />
+
+<img width="179" height="61" alt="image" src="https://github.com/user-attachments/assets/303880c8-b051-4f38-ad91-24157e11e5be" />
+
+
 With it, you can assign powerful scripts and commands to clicks and mouse scroll movements, all in a single button at the corner of your screen!
 
 ## ✨ New in this Version (v1.5.4)
