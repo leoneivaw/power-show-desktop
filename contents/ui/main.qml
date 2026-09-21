@@ -21,7 +21,56 @@ PlasmoidItem {
 	id: root
 
 	preferredRepresentation: fullRepresentation
-	toolTipSubText: activeController.description
+	toolTipSubText: {
+		let extractCmdName = function(cmd) {
+			if (!cmd) return "";
+			let m = cmd.match(/"([^"]+)"/);
+			if (m) return m[1];
+			
+			let parts = cmd.split(" ");
+			if (parts[0].indexOf("qdbus") !== -1) {
+				return parts[parts.length - 1];
+			}
+			
+			for (let i = 0; i < parts.length; i++) {
+				if (parts[i].indexOf("/") !== -1) {
+					let p = parts[i].split("/");
+					parts[i] = p[p.length - 1];
+				}
+			}
+			return parts.join(" ");
+		};
+
+		let text = "<b>" + activeController.description + "</b><br>";
+		let basic = [];
+		let advanced = [];
+		
+		let add = function(arr, label, cmd) {
+			if (cmd) {
+				arr.push("<b>" + label + ":</b> " + extractCmdName(cmd));
+			}
+		};
+		
+		add(basic, i18n("Left Click"), Plasmoid.configuration.click_command);
+		add(basic, i18n("Middle Click"), Plasmoid.configuration.middle_click_command);
+		add(basic, i18n("Long Click"), Plasmoid.configuration.longclick_command);
+		
+		add(advanced, i18n("Ctrl+Click"), Plasmoid.configuration.ctrl_click_command);
+		add(advanced, i18n("Shift+Click"), Plasmoid.configuration.shift_click_command);
+		add(advanced, i18n("Alt+Click"), Plasmoid.configuration.alt_click_command);
+		add(advanced, i18n("Scroll Up"), Plasmoid.configuration.mousewheel_up);
+		add(advanced, i18n("Scroll Down"), Plasmoid.configuration.mousewheel_down);
+		add(advanced, i18n("Ctrl+Scroll Up"), Plasmoid.configuration.ctrl_mousewheel_up);
+		add(advanced, i18n("Ctrl+Scroll Down"), Plasmoid.configuration.ctrl_mousewheel_down);
+
+		if (basic.length > 0) {
+			text += "<br><i>" + i18n("General Settings") + "</i><br>" + basic.join("<br>");
+		}
+		if (advanced.length > 0) {
+			text += "<br><br><i>" + i18n("Advanced Actions") + "</i><br>" + advanced.join("<br>");
+		}
+		return text;
+	}
 
 	AppletConfig {
 		id: config
@@ -42,7 +91,7 @@ PlasmoidItem {
 	property int mediaExtraSize: {
 		if (mediaLoader.active && mediaLoader.item && mediaLoader.item.hasActiveMedia) {
 			if (Plasmoid.configuration.mediaVisualMode === "expanded" || Plasmoid.configuration.mediaVisualMode === "textOnly") {
-				return root.vertical ? Plasmoid.configuration.mediaControlWidth : Math.min(mediaLoader.item.implicitWidth, Plasmoid.configuration.mediaControlWidth);
+				return Plasmoid.configuration.mediaControlWidth;
 			} else if (Plasmoid.configuration.mediaVisualMode === "minimal") {
 				return vertical ? Math.max(16, root.width * 0.7) : (Math.max(16, root.height * 0.7) + (Kirigami.Units.smallSpacing * 2));
 			} else {
@@ -76,9 +125,9 @@ PlasmoidItem {
 	readonly property bool vertical: Plasmoid.location === PlasmaCore.Types.RightEdge || Plasmoid.location === PlasmaCore.Types.LeftEdge
 
 	readonly property Controller primaryController: {
-		if (Plasmoid.configuration.click_action == "minimizeall") {
+		if (Plasmoid.configuration.click_action == "minimizeall" || Plasmoid.configuration.click_command == "minimizeall") {
 			return minimizeAllController;
-		} else if (Plasmoid.configuration.click_action == "showdesktop") {
+		} else if (Plasmoid.configuration.click_action == "showdesktop" || Plasmoid.configuration.click_command == "showdesktop") {
 			return peekController;
 		} else {
 			return commandController;
@@ -412,7 +461,7 @@ PlasmoidItem {
 			anchors.fill: parent
 			mainText: Plasmoid.title
 			subText: toolTipSubText
-			textFormat: Text.PlainText
+			textFormat: Text.RichText
 		}
 	}
 

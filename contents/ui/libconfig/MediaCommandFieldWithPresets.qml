@@ -59,6 +59,7 @@ RowLayout {
         id: presetCombo
         textRole: "text"
         valueRole: "value"
+        wheelEnabled: false
 
         delegate: QQC2.ItemDelegate {
             width: ListView.view ? ListView.view.width : presetCombo.width

@@ -26,10 +26,11 @@ Item {
     }
 
     property var currentPlayer: mprisModel.currentPlayer
-    property bool hasActiveMedia: currentPlayer !== null && currentPlayer !== undefined
-    property string artUrl: currentPlayer ? currentPlayer.artUrl : ""
-    property string track: currentPlayer ? currentPlayer.track : ""
-    property string artist: currentPlayer ? currentPlayer.artist : ""
+    property string artUrl: currentPlayer ? (currentPlayer.artUrl || "") : ""
+    property string track: currentPlayer ? (currentPlayer.track || "") : ""
+    property string artist: currentPlayer ? (currentPlayer.artist || "") : ""
+    property bool isPlaying: currentPlayer && (currentPlayer.playbackStatus === Mpris.PlaybackStatus.Playing || currentPlayer.playbackStatus === 0)
+    property bool hasActiveMedia: currentPlayer !== null && currentPlayer !== undefined && (track !== "" || artist !== "" || isPlaying)
 
     function handleCommand(cmd) {
         if (cmd === "open_player_popup") {
@@ -134,7 +135,7 @@ Item {
         Item {
             id: coverArtContainer
             Layout.fillHeight: true
-            Layout.preferredWidth: mediaRoot.height - (Kirigami.Units.smallSpacing * 2)
+            Layout.preferredWidth: Math.max(0, mediaRoot.height - (Kirigami.Units.smallSpacing * 2))
             Layout.alignment: Qt.AlignVCenter
             visible: Plasmoid.configuration.mediaVisualMode !== "minimal" && Plasmoid.configuration.mediaVisualMode !== "textOnly"
 
@@ -162,7 +163,7 @@ Item {
             Layout.preferredWidth: height
             Layout.alignment: Qt.AlignVCenter
             // Fallback para verificar o status se a enumeração falhar, mas geralmente 'Playing' == 0.
-            source: (mediaRoot.currentPlayer && (mediaRoot.currentPlayer.playbackStatus === Mpris.PlaybackStatus.Playing || mediaRoot.currentPlayer.playbackStatus === 0)) ? "media-playback-pause" : "media-playback-start"
+            source: mediaRoot.isPlaying ? "media-playback-pause" : "media-playback-start"
             visible: Plasmoid.configuration.mediaVisualMode === "minimal"
         }
 
@@ -178,7 +179,7 @@ Item {
                 elide: Text.ElideRight
                 maximumLineCount: 1
                 font: Kirigami.Theme.smallFont
-                opacity: (mediaRoot.currentPlayer && (mediaRoot.currentPlayer.playbackStatus === Mpris.PlaybackStatus.Playing || mediaRoot.currentPlayer.playbackStatus === 0)) ? 1.0 : 0.7
+                opacity: mediaRoot.isPlaying ? 1.0 : 0.7
                 Behavior on opacity { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad } }
             }
 

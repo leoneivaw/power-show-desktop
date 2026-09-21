@@ -10,7 +10,7 @@ import "../libconfig" as LibConfig
 LibConfig.FormKCM {
 	id: page
 
-	property string cfg_click_action: 'showdesktop'
+	property string cfg_click_action: 'run_command'
 	property alias cfg_click_command: click_command.text
 	property alias cfg_longclick_command: longclick_command.text
 
@@ -76,7 +76,6 @@ LibConfig.FormKCM {
 	LibConfig.Heading {
 		text: i18n("Click")
 	}
-
 
 	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Normal Click:")

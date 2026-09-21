@@ -60,6 +60,7 @@ RowLayout {
         id: presetCombo
         textRole: "text"
         valueRole: "value"
+        wheelEnabled: false
 
         delegate: QQC2.ItemDelegate {
             width: ListView.view ? ListView.view.width : presetCombo.width
@@ -73,6 +74,8 @@ RowLayout {
 
         model: [
             { text: i18n("Command"), value: "", isHeader: false },
+            { text: i18n("Peek at Desktop (Native)"), value: "showdesktop", isHeader: false },
+            { text: i18n("Minimize All Windows (Native)"), value: "minimizeall", isHeader: false },
             
             { text: i18n("--- Gerenciamento de Janelas e Telas ---"), value: "HEADER", isHeader: true },
             { text: i18n("Overview"), value: "qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut \"Overview\"", isHeader: false },
@@ -80,7 +83,7 @@ RowLayout {
             { text: i18n("Present Windows (All Desktops)"), value: "qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut \"ExposeAll\"", isHeader: false },
             { text: i18n("Present Windows (Window Class)"), value: "qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut \"ExposeClass\"", isHeader: false },
             { text: i18n("Show Desktop Grid"), value: "qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut \"ShowDesktopGrid\"", isHeader: false },
-            { text: i18n("Show Desktop"), value: "qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut \"Show Desktop\"", isHeader: false },
+            { text: i18n("Show Desktop (DBus)"), value: "qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut \"Show Desktop\"", isHeader: false },
 
             { text: i18n("--- Alternância de Áreas de Trabalho ---"), value: "HEADER", isHeader: true },
             { text: i18n("Switch Desktop Right"), value: "qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut \"Switch One Desktop to the Right\"", isHeader: false },
