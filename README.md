@@ -18,27 +18,14 @@
 
 With it, you can assign powerful scripts and commands to clicks and mouse scroll movements, all in a single button at the corner of your screen!
 
-## ✨ New in this Version (v1.5.4)
+## ✨ New in this Version (v1.5.5)
 
-This version has been redesigned with productivity in mind, introducing new configuration screens and dozens of new triggers:
+*   **Interactive Tooltip Overview:** Hovering over the widget now displays a rich-text tooltip summarizing all your configured actions and keyboard/mouse shortcuts (both General and Advanced).
+*   **Native Action Presets:** Added direct presets for "Peek at Desktop (Native)" and "Minimize All Windows (Native)" in the command configuration dropdowns.
+*   **ComboBox Scroll Protection:** Disabled mouse wheel scrolling on settings dropdowns to prevent accidental option changes while scrolling configuration pages.
+*   **Media Playback Detection:** Improved active media detection and playback status handling in the MPRIS media block.
 
-*   **Advanced Click Actions:** Configure independent scripts or commands for:
-    *   `Ctrl + Click`
-    *   `Alt + Click`
-    *   `Shift + Click`
-    *   `Middle Click`
-*   **Long Press:** Hold the left mouse button pressed to execute a secondary action.
-    *   *Custom Glow Color:* Choose a custom glow color to indicate that the long press has been triggered.
-    *   *Smart Anti-Conflict:* The widget understands when you are long-pressing and automatically blocks the "minimize windows" action, avoiding unwanted behaviors.
-*   **Mouse Wheel Controls (Scroll):**
-    *   Assign native `qdbus` commands to the mouse wheel.
-    *   Configure `Ctrl + Scroll Up` and `Ctrl + Scroll Down` (perfect for quickly switching virtual desktops).
-    *   **Configurable Cooldown:** Control scroll sensitivity! Adjust the timeout (in milliseconds) to prevent the mouse from triggering the same action dozens of times in a single movement.
-*   **Modern Layout:** The internal settings panel of the widget has been updated to use KDE's native Kirigami design, now featuring smart command presets and a file picker for bash scripts.
-*   **🎵 Native MPRIS Media Control:** 
-    *   A completely new, integrated media block to control any active player (Spotify, browsers, VLC) seamlessly.
-    *   **Dynamic Media Popup:** A clean popup dialog featuring album art, smart media controls, and dynamically expanding tabs that adapt based on the number of currently active players.
-    *   **Media Actions & Scroll:** Granular customization over your media commands, including native DBus shortcuts and isolated volume control exclusively for the focused media.
+*(Includes all v1.5.4 features: Native MPRIS Media Control, Dynamic Media Popup, Kirigami settings layout, and Advanced Click/Scroll triggers)*
 
 ---
 
@@ -47,10 +34,10 @@ This version has been redesigned with productivity in mind, introducing new conf
 The easiest way to install is by using the packaged `.plasmoid` file available in the **Releases** tab.
 
 1. Go to the project's [Releases](../../releases) page.
-2. Download the latest `Power-Show-Desktop-1.5.4.plasmoid` file.
+2. Download the latest `Power-Show-Desktop-1.5.5.plasmoid` file.
 3. To install, you can double-click the downloaded file and use the KDE installer, or use the terminal:
    ```bash
-   kpackagetool6 -i Power-Show-Desktop-1.5.4.plasmoid
+   kpackagetool6 -i Power-Show-Desktop-1.5.5.plasmoid
    ```
 4. Restart your plasma panel (`systemctl restart --user plasma-plasmashell`) and add the "Power Show Desktop | Plasma" widget to your panel.
 
