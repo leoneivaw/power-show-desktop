@@ -55,6 +55,10 @@ After adding the widget to your taskbar:
 
 ![Advanced Configuration](images/Config_advanced.png)
 
+4. In the **Media Control** tab, you can enable native MPRIS integration, configure appearance (position, visual mode, and maximum width), and customize dedicated media shortcuts (`Play/Pause`, opening player popup, next/previous tracks, and D-Bus shortcuts).
+
+![Media Control Configuration](images/Config_media.png)
+
 ### Useful Example for Scrolling (Switching Desktops)
 Try selecting these commands from the smart Presets dropdown in the **Advanced Actions** tab to switch desktops using `Ctrl + Scroll`:
 - **Ctrl+Scroll Up:** `Switch One Desktop to the Right`
